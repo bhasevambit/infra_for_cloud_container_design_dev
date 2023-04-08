@@ -1,0 +1,28 @@
+{
+    "applicationName": "AppECS-sbcntr-ecs-backend-cluster-sbcntr-ecs-backend-service",
+    "currentDeploymentGroupName": "DgpECS-sbcntr-ecs-backend-cluster-sbcntr-ecs-backend-service",
+    "loadBalancerInfo": {
+        "targetGroupPairInfoList": [
+            {
+                "targetGroups": [
+                    {
+                        "name": "sbcntr-tg-backend-blue"
+                    },
+                    {
+                        "name": "sbcntr-tg-backend-green"
+                    }
+                ],
+                "prodTrafficRoute": {
+                    "listenerArns": [
+                        "arn:aws:elasticloadbalancing:ap-northeast-1:353981446712:listener/app/sbcntr-alb-internal-tf/9bc9b7a3ba027625/6d970beb597f52b3"
+                    ]
+                },
+                "testTrafficRoute": {
+                    "listenerArns": [
+                        "arn:aws:elasticloadbalancing:ap-northeast-1:353981446712:listener/app/sbcntr-alb-internal-tf/9bc9b7a3ba027625/260edd3628db315d"
+                    ]
+                }
+            }
+        ]
+    }
+}
