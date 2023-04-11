@@ -4,6 +4,10 @@ This Repository is practice for Terraform and AWS Cloud Native Architecture.
 
 ## Usage
 
-Execute Shell Script. Command usage is below.
+### Activation
 
-$ ./AWS_Cost_Impact_Resources_Activate.sh
+`./AWS_Cost_Impact_Resources_Activate.sh`
+
+### Deactivation
+
+`./AWS_Cost_Impact_Resources_Deactivate.sh`
