@@ -4,3 +4,6 @@
 *.tfvars
 
 **/.infracost/*
+
+**/Activation_Scripts/CodeDeploy_deploymnet-group_load-balancer-info_backend.json
+**/Activation_Scripts/CodeDeploy_deploymnet-group_load-balancer-info_frontend.json

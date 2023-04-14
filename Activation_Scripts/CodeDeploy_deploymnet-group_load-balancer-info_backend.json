@@ -14,12 +14,12 @@
         ],
         "prodTrafficRoute": {
           "listenerArns": [
-            "arn:aws:elasticloadbalancing:ap-northeast-1:353981446712:listener/app/sbcntr-alb-internal-tf/329803932aff71fa/22af3c596a4d4901"
+            "arn:aws:elasticloadbalancing:ap-northeast-1:353981446712:listener/app/sbcntr-alb-internal-tf/b9b6f2b9b859b400/d417ce498d8dee59"
           ]
         },
         "testTrafficRoute": {
           "listenerArns": [
-            "arn:aws:elasticloadbalancing:ap-northeast-1:353981446712:listener/app/sbcntr-alb-internal-tf/329803932aff71fa/d219d1a73f1fa552"
+            "arn:aws:elasticloadbalancing:ap-northeast-1:353981446712:listener/app/sbcntr-alb-internal-tf/b9b6f2b9b859b400/1f3b90c240f58f2c"
           ]
         }
       }

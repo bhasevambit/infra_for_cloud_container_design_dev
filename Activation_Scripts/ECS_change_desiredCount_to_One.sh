@@ -4,6 +4,8 @@
 aws ecs update-service --cluster sbcntr-ecs-frontend-cluster --service sbcntr-ecs-frontend-service --desired-count 1
 aws ecs update-service --cluster sbcntr-ecs-backend-cluster --service sbcntr-ecs-backend-service --desired-count 1
 
+aws ecs update-service --cluster sbcntr-ecs-frontend-cluster --service sbcntr-ecs-frontend-bastion-service --desired-count 1
+
 #===== ECS AutoScaleの一時停止の解除 =====
 aws application-autoscaling register-scalable-target \
   --service-namespace ecs \

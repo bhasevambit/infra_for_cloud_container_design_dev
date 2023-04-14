@@ -16,3 +16,5 @@ aws application-autoscaling register-scalable-target \
 #===== desired-countを0とした上で、ECSサービスを更新=====
 aws ecs update-service --cluster sbcntr-ecs-frontend-cluster --service sbcntr-ecs-frontend-service --desired-count 0
 aws ecs update-service --cluster sbcntr-ecs-backend-cluster --service sbcntr-ecs-backend-service --desired-count 0
+
+aws ecs update-service --cluster sbcntr-ecs-frontend-cluster --service sbcntr-ecs-frontend-bastion-service --desired-count 0
